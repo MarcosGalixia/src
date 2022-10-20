@@ -2,7 +2,6 @@ import csv
 
 #creamos la funcion que nos permite leer el fichero entero,saltandose la cabecera separando cada una de las columnas por el punto y coma
 
-
 def leer_fichero_entero(fichero):
     with open(fichero,encoding='utf-8') as f:
         lector=csv.reader(f, delimiter=';')
