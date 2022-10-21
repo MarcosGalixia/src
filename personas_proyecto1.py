@@ -11,6 +11,7 @@ def leer_fichero_entero(fichero):
     @type fichero:srt
     @return: Una lista de tuplas de tipo Registros con todos los datos del csv
      @rtype: [ Registros(int, str, boolean, int, str. boolean, str, str, in, boolean, int, boolean, int, int, datetime.date)]  
+     a
     '''
     with open(fichero,encoding='utf-8') as f:
         lector=csv.reader(f, delimiter=';')
